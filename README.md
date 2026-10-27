@@ -41,7 +41,7 @@ Every meeting is saved. Replay it later, export it as Markdown, or download the 
 You need **Node.js 22.18 or newer** and **[Claude Code](https://code.claude.com/docs/en/setup)**, installed and signed in (run `claude` once).
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ai-boardroom.git
+git clone https://github.com/haidermoulay3mk/ai-boardroom.git
 cd ai-boardroom
 npm install
 npm start
