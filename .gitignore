@@ -1,0 +1,11 @@
+node_modules/
+data/
+launch/
+*.log
+.DS_Store
+Thumbs.db
+.gstack/
+scripts/demo-gif/frames/
+scripts/demo-gif/delays.json
+# private working notes (Fable OS handoff)
+STATE.md

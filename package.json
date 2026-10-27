@@ -1,0 +1,39 @@
+{
+  "name": "ai-boardroom",
+  "version": "0.1.0",
+  "description": "Bring a hard business decision to a table of AI advisors. They debate it live, a chair runs the room, and you get a scored verdict. Runs locally on Claude Code.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "demo": "node src/server.ts --demo",
+    "dev": "node --watch src/server.ts --no-open",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "check": "npm run typecheck && npm test"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai-agents",
+    "multi-agent",
+    "decision-making",
+    "advisory-board",
+    "debate",
+    "startup",
+    "founder",
+    "llm"
+  ],
+  "dependencies": {
+    "pdfkit": "^0.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pdfkit": "^0.17.7",
+    "typescript": "^7.0.2"
+  }
+}
